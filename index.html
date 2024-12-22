@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>花花和南南</title>
+    <style>
+body{
+    font-size: 20px;
+    font-family: "微软雅黑";
+}
+body,form,input,h1,p{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+        width: 1800px;
+        height: 950px;
+        background: url(image/登录页2.jpg) ;
+        background-color: transparent;
+        background-size: contain;
+}
+.bg{
+    width: 200px;
+    height: 1000px;
+    background: url(images/form_bg.jpg) ;
+}
+form{
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+p {
+    padding-left: -1000px;
+    margin-top: 20px;
+}
+
+p input{
+    width: 200px;
+    height: 18px;
+    border: 1px solid #38a1bf;
+    padding: 2px;
+}
+    </style>
+</head>
+<body>
+    <form method="POST" action="验证登录.php">
+        <p>您的名字：<input type="text" name="username"></p>
+        <p>花花生日：<input type="text" name="birthday"></p>
+        <p>恋爱日期：<input type="text" name="anniversary"></p>
+        <p><button type="submit">登录</button></p>
+    </form>
+</body>
+</html>
